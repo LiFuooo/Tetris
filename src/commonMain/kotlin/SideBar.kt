@@ -16,7 +16,7 @@ fun countStackRows(boardOfCells: BoardOfCells): Int {
     return count
 }
 
-
+data class HighScoreEntry(val name : String, val score : Int)
 // Score
 fun score(scoreIn: Int, NComplete: Int): Int {
     return scoreIn + when(NComplete){
